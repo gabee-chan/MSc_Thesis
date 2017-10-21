@@ -3,8 +3,8 @@
 // Script parameters - these are set up by R in the function 'writeReport' when copying the 
 //   template for this script from arrayQualityMetrics/inst/scripts into the report.
 
-var highlightInitial = [ false, false, false, false, false, true, true, false, false, false, false, false, false, true ];
-var arrayMetadata    = [ [ "1", "trs_4", "GSM143385.CEL.gz", "trs", "trs_4", "A", "09/09/05 13:39:53" ], [ "2", "trs_8", "GSM143387.CEL.gz", "trs", "trs_8", "A", "09/09/05 11:49:26" ], [ "3", "trs_16", "GSM143389.CEL.gz", "trs", "trs_16", "A", "09/09/05 11:27:17" ], [ "4", "trs_24", "GSM143391.CEL.gz", "trs", "trs_24", "A", "09/09/05 13:06:36" ], [ "5", "trs_32", "GSM143393.CEL.gz", "trs", "trs_32", "A", "09/09/05 12:45:00" ], [ "6", "trs_72", "GSM143395.CEL.gz", "trs", "trs_72", "A", "09/09/05 14:24:29" ], [ "7", "trs_120", "GSM143397.CEL.gz", "trs", "trs_120", "A", "09/09/05 14:58:05" ], [ "8", "ctr_4", "GSM143386.CEL.gz", "ctr", "ctr_4", "B", "09/09/05 12:22:43" ], [ "9", "ctr_8", "GSM143388.CEL.gz", "ctr", "ctr_8", "B", "09/09/05 11:38:20" ], [ "10", "ctr_16", "GSM143390.CEL.gz", "ctr", "ctr_16", "B", "09/09/05 13:28:51" ], [ "11", "ctr_24", "GSM143392.CEL.gz", "ctr", "ctr_24", "B", "09/09/05 12:00:31" ], [ "12", "ctr_32", "GSM143394.CEL.gz", "ctr", "ctr_32", "B", "09/09/05 13:17:46" ], [ "13", "ctr_72", "GSM143396.CEL.gz", "ctr", "ctr_72", "B", "09/09/05 14:35:41" ], [ "14", "ctr_120", "GSM143398.CEL.gz", "ctr", "ctr_120", "B", "09/09/05 15:42:35" ] ];
+var highlightInitial = [ false, false, false, false, false, false ];
+var arrayMetadata    = [ [ "1", "tr_1", "GSM813665.CEL.gz", "tr", "tr_1", "A", "2011-04-05T15:53:29Z" ], [ "2", "tr_2", "GSM813666.CEL.gz", "tr", "tr_2", "A", "2011-04-05T16:04:55Z" ], [ "3", "tr_3", "GSM813667.CEL.gz", "tr", "tr_3", "A", "2011-04-05T16:16:08Z" ], [ "4", "ct_1", "GSM813680.CEL.gz", "ct", "ct_1", "B", "2011-04-05T15:19:25Z" ], [ "5", "ct_2", "GSM813681.CEL.gz", "ct", "ct_2", "B", "2011-04-05T15:30:49Z" ], [ "6", "ct_3", "GSM813682.CEL.gz", "ct", "ct_3", "B", "2011-04-05T15:42:02Z" ] ];
 var svgObjectNames   = [ "pca", "dens" ];
 
 var cssText = ["stroke-width:1; stroke-opacity:0.4",
